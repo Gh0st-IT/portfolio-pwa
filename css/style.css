@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  color: whitesmoke;
+  background-color: black;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 100%;
+  margin-top: 10px;
+  padding: 0;
+  width: 100%;
+}
+
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+}
+h2{
+  font-size: 36px;
+}
+img{
+  max-width: 100%
+}
+.title {
+  font-size: 3rem;
+}
+
+.desc-container{
+  display: flex;
+  align-items: center;
+  margin: 5% 3% 10% 3%;
+  padding: 10px;
+  background-color: #202020;
+  border: solid 1px;
+}
+.desc{
+  padding: 20px;
+}
+.desc p{
+  font-size: 24px;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+progress{
+  width: 200px;
+  height: 30px;
+}
+
+.hobby-container{
+  padding: 10px;
+  background-color: #202020;
+  border: solid 1px;
+  margin: 3%;
+}
+.hobby, .lang{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.movies, .music, .lang{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  row-gap: 20px;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #202020;
+  border: solid 1px;
+  margin: 3%;
+
+}
+
+footer{
+  padding: 30px;
+}
+.contacts-container{
+  width: 100%;
+}
+
+.contacts{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #202020;
+  padding: 10px;
+}
